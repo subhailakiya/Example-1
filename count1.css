@@ -1,0 +1,14 @@
+/* counter is seems like li ul in html */
+body{
+    counter-reset: para;
+}
+
+.counters{
+    padding: 20px;
+    background-color: violet;
+
+}
+h2::before{
+    counter-increment: para;
+    content: "para @" counter(para);
+}

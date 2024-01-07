@@ -1,0 +1,54 @@
+/*.index{
+    color:orange;
+}
+
+.index > h2{
+    color:red; 
+}
+
+/*.index + h2{
+    color:yellow; <--- it color the after div tag. for exmaple if div having more than one h2 but it doesnot color 
+    the div h2 it color  after the div tag but it have more than one just color the one div tag(adjacent sibling)--->  
+}
+
+.index ~ h2{
+    color:blue; <--- it color the after div tag. for exmaple if div having more than one h2 but it doesnot 
+    color the div h2 it color  after the div tag it had more than one or two it color all the h2(general sibiling)--->  
+}
+
+*{
+    color:pink;<-- it color all the html (universal selector)--->
+}
+
+div[class]{
+    color:aqua; <--- color the all div class only(attribute selector) attribute means  class---> 
+}
+
+span[class]{
+    color:blue; <--- color the span class attribute--->
+}
+
+a[title]{
+    color:brown;<-- color all the link -->
+}
+
+a[title="everybody"]{ 
+    color:yellow; <--- color just mention the title name only--->
+ /* } 
+
+ div[class~="made"]{ <--- it used when the div and span having same name as (made) but div having same name as made 
+                        with another word in  div having more than div that tym we use the general sibling attribute selector--->
+    color:coral;
+ } 
+
+  div[class^="made"]{
+    color:orange; <--- ^ uses starting with made where the made used in many sentence but span also starting with made but we 
+                      create for div only so that div made only change   
+                      
+                      for ending with made using symbol is $    ans ~ for where it will be in middle start end it take out 
+                      this is all called attribute selector--->
+ } */
+
+
+
+

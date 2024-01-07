@@ -1,0 +1,59 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:70vh;
+    background-image: url("/example/download.jpg");
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    font-size: larger;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    border:4px solid red;
+    width:auto;
+}
+.hello h2{
+    color:rgb(237, 10, 245);
+    margin-top: 20px;
+    text-shadow: 2px 1px white;
+    text-decoration:underline;
+    text-transform: uppercase;
+    text-overflow:clip;
+}
+.hello{
+    border-style: double;
+    text-align: center;
+    color:aquamarine;
+    font-size: large;
+    border-left: solid;
+    border-radius:solid;
+    box-shadow:20%;
+    border-top: dashed;
+    padding: 20px;
+}
+.hello p{
+    background-color:rgb(3, 253, 253);
+    color:black;
+    margin: 20px 30px;
+}
+    .btn{
+        border-style:groove;
+        background-color: yellow;
+        color:black;
+        border-width: 10px;
+        height: 10vh;
+        width:20vh;
+        font-size: 100%;
+        margin:10px 12px;
+
+        
+    }
+    .btn:hover{
+        color:blue;
+       }
